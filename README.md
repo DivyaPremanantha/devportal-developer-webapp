@@ -1,4 +1,4 @@
-# Project Setup and Usage Instructions
+# Devportal Developer App
 
 ## Steps to Set Up the Project
 
@@ -20,6 +20,7 @@
      ```bash
      npm run start
      ```
+   - The default application will be launch at http://localhost:3000
 
 ## Project Structure and Layout
 
