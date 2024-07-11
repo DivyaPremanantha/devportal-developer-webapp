@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Devportal developer webapp",
   "scripts": {
-    "start": "node node_modules/devportal-webapp/src/dev-server.js"
+    "start": "node node_modules/devportal-webapp/src/dev-server.js",
+    "compress": "sh compress.sh"
   },
   "repository": {
     "type": "git",
