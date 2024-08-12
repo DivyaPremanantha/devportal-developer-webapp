@@ -1,2 +1,2 @@
 cd src/
-zip -r ABCOrganization.zip images layout pages partials
+zip -r $1.zip images layout pages partials
