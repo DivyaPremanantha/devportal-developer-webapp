@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Devportal developer webapp",
   "scripts": {
-    "start": "npm install & node node_modules/devportal-webapp/src/dev-server.js",
-    "compress": "sh compress.sh"
+    "start": "npm run build-css --watch & npm install & node node_modules/devportal-webapp/src/dev-server.js",
+    "compress": "sh compress.sh",
+    "build-css": "node watcher.js"
+
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,6 @@
   },
   "homepage": "https://github.com/DivyaPremanantha/devportal-developer-webapp#readme",
   "dependencies": {
-    "devportal-webapp": "^1.0.8"  
+    "devportal-webapp": "^1.0.9"  
   }
 }
