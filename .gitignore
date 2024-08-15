@@ -16,6 +16,8 @@
 # production
 /build
 
+/src/styles
+
 # misc
 .DS_Store
 *.pem
