@@ -14,7 +14,6 @@
 @import '/styles/api-detail-banner.css';
 @import '/styles/tryout-banner.css';
 @import '/styles/api-content.css';
-
 :root {
   --main-bg-color: #f7f8fb;
   --light-bg-color: #ffffff;
@@ -164,9 +163,9 @@
 }
 
 .api-md-content h3,h2 {
-  font-size: 25px;
+  font-size: 24px;
   color: var(--main-text-color);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* --SubTitle-- */
@@ -180,7 +179,7 @@
 .api-md-content p {
   font-size: 15px;
   color: var(--main-text-color);
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 .api-md-content li {
