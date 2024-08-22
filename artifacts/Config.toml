@@ -1,0 +1,18 @@
+storage = 'DB'
+adminURL = 'http://localhost:8080/admin/orgFiles?orgName='
+
+[origins]
+allowedOrigins = ["http://localhost:3000"]
+
+[devportal.store]
+host = ""
+port = 5432
+user = ""
+password = ""
+database = ""
+
+[devportal.models]
+awsAccessKeyId = ""
+awsSecretAccessKey = ""
+awsRegion = ""
+
